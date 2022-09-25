@@ -47,8 +47,6 @@ public class TestBMI {
 	public void testDataMale() throws InterruptedException {
 		bmiCalculator.dataMale();
 		bmiCalculator.btnCalculate();
-//		bmiCalculator.btnRecalculate();
-//		bmiCalculator.inputData("180", "60", "24");
 		assertTrue(bmiCalculator.getTxtResult().contains("Results"));
 	}
 	

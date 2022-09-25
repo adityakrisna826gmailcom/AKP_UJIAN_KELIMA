@@ -21,16 +21,6 @@ public class BMICalculator {
 	}
 	
 	// Locator number
-//	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Kalender lengkap dengan TANGGAL MERAH BUKA AD\"]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.view.View")
-//	private MobileElement btnJenisKelamin;
-//	@AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Setuju\"]")
-//	private MobileElement btnSetuju;
-//	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Kalender lengkap dengan TANGGAL MERAH BUKA AD\"]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.widget.EditText[1]")
-//	private MobileElement inpTinggi;
-//	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Kalender lengkap dengan TANGGAL MERAH BUKA AD\"]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.widget.EditText[2]")
-//	private MobileElement inpBerat;
-//	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Kalkulator BMI\"]")
-//	private MobileElement txtValid;
 	
 	@AndroidFindBy(id = "com.bmi.body.mass.index.calculator:id/radio1")
 	private MobileElement btnMale;
@@ -68,9 +58,6 @@ public class BMICalculator {
 	private MobileElement btnShare;
 	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.RelativeLayout/android.widget.TextView")
 	private MobileElement txtEmpty;
-	
-	
-	
 	
 	
 	
